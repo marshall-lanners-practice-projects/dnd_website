@@ -38,9 +38,6 @@ const Session = ({ title, paragraphs }) => {
             </p>
           );
         })}
-        {/* {paragraphs.map((p, i) => {
-          return <p className='lead'>{p}</p>;
-        })} */}
       </Jumbotron>
     </div>
   );
