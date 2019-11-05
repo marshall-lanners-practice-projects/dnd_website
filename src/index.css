@@ -8,10 +8,19 @@
   font-size: 3.5rem;
 }
 
+.mainHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .pageBanner {
   border-radius: 15px;
   width: 100%;
   margin-bottom: 20px;
+  max-width: 750px;
+  display: block;
 }
 
 .cardDiv {

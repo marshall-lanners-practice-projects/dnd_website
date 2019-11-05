@@ -24,8 +24,10 @@ const Resources = () => {
     <section>
       <div style={mainBackground}>
         <div style={style_container}>
-          <h1 className='fantasyH1'>Resources</h1>
-          <img src={dnd} className='pageBanner' alt='D&D' />
+          <div className='mainHeading'>
+            <h1 className='fantasyH1'>Resources</h1>
+            <img src={dnd} className='pageBanner' alt='D&D' />
+          </div>
           <h4 className='booklets'>All PDF's for D&D 5E</h4>
           <div className='resources'>
             <Card style={{ margin: '1%' }}>
