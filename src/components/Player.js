@@ -18,7 +18,7 @@ const Player = props => {
         toggle={toggle}
         className={className}
         centered={true}
-        style={{ maxWidth: '900px' }}
+        style={{ maxWidth: '600px' }}
       >
         <ModalHeader toggle={toggle}>{playerName}</ModalHeader>
         <ModalBody>{bio}</ModalBody>

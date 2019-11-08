@@ -11,7 +11,7 @@ const Home = () => {
       <div style={style_container}>
         <section className='mainHeading'>
           <h1 className='fantasyH1'>Tales from New Providence</h1>
-          <img src={pship} className='pageBanner' />
+          <img src={pship} className='pageBanner' alt='ship' />
           <p style={{ margin: '1%' }}>
             Tales from New Providence is a Pirate Themed Dungeons and Dragons
             Adventure taking place within 5th Edition D&D rule set. The party is
